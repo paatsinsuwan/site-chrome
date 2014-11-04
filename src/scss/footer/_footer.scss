@@ -102,10 +102,6 @@
       height: 24px;
       width:24px;
       float: left;
-      &.chat {
-        background-position:0 0;
-      }
-
       &.email {
         background-position:-24px 0;
       }
@@ -149,9 +145,8 @@
           clear: none;
         }
 
-        &.chat {
+        &.email {
           margin-left: 20px;
-          background-position:0 0;
         }
       }
     }
