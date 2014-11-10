@@ -24,6 +24,11 @@
     }
   }
 
+  hr{
+    border: 0;
+    border-top: 1px solid #d2d2d2;
+  }
+
   ul {
     margin: 0;
     padding: 0;
@@ -75,6 +80,7 @@
       display: inline-block;
       line-height: 24px;
       text-decoration: none;
+      cursor: default;
 
       &.top{
         display: block;
@@ -104,37 +110,53 @@
       float: left;
       &.email {
         background-position:-24px 0;
+        &:hover{
+          background-position:-24px -24px;
+        }
       }
-
       &.tele {
-        background-position:-48px 0;
+        background-position:-48px -48px;
         cursor: default;
       }
-
-
       &.tw {
         background-position:-72px 0;
+        &:hover{
+          background-position:-72px -24px;
+        }
       }
-
-
       &.yt{
         background-position:-96px 0;
+        &:hover{
+          background-position:-96px -24px;
+        }
       }
 
       &.wp{
         background-position:-120px 0;
+        &:hover{
+          background-position:-120px -24px;
+        }
       }
 
       &.gp{
         background-position:-144px 0;
+        &:hover{
+          background-position:-144px -24px;
+        }
       }
 
       &.fb{
         background-position:-168px 0;
+        &:hover{
+          background-position:-168px -24px;
+        }
       }
 
       &.li{
         background-position:-192px 0;
+        &:hover{
+          background-position:-192px -24px;
+        }
       }
 
       @include break-above(mobile) {

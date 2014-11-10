@@ -22,7 +22,7 @@ $(document).ready(function() {
     $('.mobile-link').removeClass('active');
     $(this).parent().addClass('active');
   });
-  $('.nested-mobile-link > a').on('click', function(e) {
+  $('.nested-mobile-link:not(.noToggle) > a').on('click', function(e) {
     e.preventDefault();
 
     var $this = $(this).parent();
