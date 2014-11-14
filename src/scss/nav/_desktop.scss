@@ -57,10 +57,10 @@
     }
 
     .active {
-//      border-bottom: 4px solid $accent-blue;
+      border-bottom: 4px solid $accent-blue;
       color: #fff;
       margin: 0 0 0 20px;
-      padding: 0 20px 0 0;
+      padding: 0 0 0 0;
     }
   }
 
@@ -79,11 +79,13 @@
   // exceptions
   .desktop-link a#masthead-link-marketplace,
   .desktop-link a#masthead-link-partners{
-    padding: 0 0 0 20px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 20px;
     &:before {
       display: none;
     }
   }
+
   .desktop-link a#masthead-link-marketplace:before,
   .desktop-link a#masthead-link-partners:before{
     display: none;
