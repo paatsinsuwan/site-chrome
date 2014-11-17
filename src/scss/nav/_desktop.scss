@@ -28,6 +28,7 @@
       height: $desktop-nav-height;
       line-height: $desktop-nav-height;
       position: relative;
+      color: #fff;
       @include box-sizing(border-box);
     }
 
@@ -71,7 +72,7 @@
     position: absolute;
     top: 23px;
     right: 0;
-    border-color: $accent-blue transparent transparent;
+    border-color: #fff transparent transparent;
     border-width: 5px;
     border-style: solid;
   }
