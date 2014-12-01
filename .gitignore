@@ -4,3 +4,4 @@ build/
 tmp/
 .idea
 site-chrome.iml
+.nvmrc
